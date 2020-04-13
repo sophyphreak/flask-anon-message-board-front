@@ -15,10 +15,8 @@ const Apitests = () => {
       <ReportThread />
       <hr />
       <DeleteThread />
-
       <hr />
       <NewReply />
-
       <hr />
       <ReportReply />
       <hr />
