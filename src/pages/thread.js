@@ -1,17 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
+import Thread from "../components/thread/thread"
 
 import "./style.css"
 
 const ThreadPage = () => {
   return (
     <div>
-      <header>
-        <h1 id="threadTitle"></h1>
-      </header>
-      <br />
-
-      <div id="boardDisplay"></div>
+      <Thread />
 
       <hr style={{ margin: "50px", marginTop: "200px" }} />
       {/* <!-- Your web-app is https, so your scripts need to be too -->
