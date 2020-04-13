@@ -13,7 +13,7 @@ const ThreadPage = () => {
 
       <div id="boardDisplay"></div>
 
-      <hr style="margin: 50px; margin-top: 200px" />
+      <hr style={{ margin: "50px", marginTop: "200px" }} />
       {/* <!-- Your web-app is https, so your scripts need to be too -->
             <script
                 src="https://code.jquery.com/jquery-2.2.1.min.js"
