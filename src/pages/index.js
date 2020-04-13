@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import "./style.css"
-import Apitests from "../components/apitests"
+import Apitests from "../components/apitests/apitests"
 
 const IndexPage = () => (
   <div>
