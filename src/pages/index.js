@@ -82,6 +82,14 @@ const IndexPage = () => (
         </Link>
       </h2>
     </div>
+    <p style={{ padding: "3%", border: "solid black 1px" }}>
+      <b>
+        Try yourself with the endpoint of <br />{" "}
+        <code>
+          https://flask-stock-price-checker.andrew-horn-portfolio.life/api/stock-prices
+        </code>
+      </b>
+    </p>
     <hr style={{ margin: "50px" }} />
     <Apitests />
     <hr style={{ margin: "50px", marginTop: "200px" }} />
