@@ -77,9 +77,9 @@ const IndexPage = () => (
       <br />
       <br />
       <h2>
-        <a href="/b/general/">
+        <Link to="/board/">
           Go to testing <i>'/b/general/'</i> board
-        </a>
+        </Link>
       </h2>
     </div>
     <hr style={{ margin: "50px" }} />
