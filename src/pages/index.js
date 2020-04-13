@@ -6,17 +6,12 @@ import Apitests from "../components/apitests/apitests"
 
 const IndexPage = () => (
   <div>
-    <header>
+    <header style={{ marginLeft: "5%", marginTop: "5%" }}>
       <h1>ISQA_3 - Anon Message Board</h1>
     </header>
     <div id="userstories" style={{ marginLeft: "5%", marginTop: "5%" }}>
       <h3>User Stories</h3>
       <ol>
-        <li>
-          Only allow your site to be loading in an iFrame on your own pages.
-        </li>
-        <li>Do not allow DNS prefetching.</li>
-        <li>Only allow your site to send the referrer for your own pages.</li>
         <li>
           I can <b>POST</b> a thread to a specific message board by passing form
           data <code>text</code> and <code>delete_password</code> to
@@ -77,7 +72,6 @@ const IndexPage = () => (
           <code>thread_id</code> &amp; <code>reply_id</code>. (Text response
           will be 'success')
         </li>
-        <li>Complete functional tests that wholely test routes and pass.</li>
       </ol>
       <img src="https://cdn.gomix.com/8f5547a1-a0d6-48f6-aa38-51753a0105f4%2FScreen%20Shot%202017-01-02%20at%201.04.10%20AM.png" />
       <br />
